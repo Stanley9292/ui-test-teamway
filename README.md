@@ -19,8 +19,7 @@ info AppiumDoctor      'emulator' is in C:\Users\Lenovo\AppData\Local\Android\Sd
 info AppiumDoctor  ✔ adb, android, emulator exist: C:\Users\Lenovo\AppData\Local\Android\Sdk
 info AppiumDoctor  ✔ 'bin' subfolder exists under 'C:\Program Files\Java\jre1.8.0_251'
 
-5. Start your emulator session or real android device. 
-    (https://www.softwaretestinghelp.com/appium-studio-tutorial-4/)
+5. Start your emulator session or real android device. Find out the name of the started device.
 6. In helpers.py update with the name of the device (ex: 'deviceName':"emulator-5554")
 7. Run "pip install -r requirements.txt"
 
@@ -29,7 +28,7 @@ info AppiumDoctor  ✔ 'bin' subfolder exists under 'C:\Program Files\Java\jre1.
 ## Run tests
 
 ```
-1. Run a test with " py.test .\test\test_android_login.py".
+1. Run a test with "py.test .\test\test_android_login.py".
 2. Run all tests with "py.test".
 
 ```
